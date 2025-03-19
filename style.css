@@ -9,7 +9,7 @@
 html,
 body {
   max-width: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 video {
   padding-top: 7em;
@@ -26,9 +26,6 @@ body {
   padding: 0;
 }
 .profil {
-  margin: 2em;
-}
-.home-grid {
   margin: 2em;
 }
 .toTheRight {
@@ -255,7 +252,6 @@ footer a:hover {
   }
 
   .home-grid {
-    margin: 2em;
     max-width: 100%;
     display: grid;
     grid-template-columns: 50% 50;
